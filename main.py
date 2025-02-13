@@ -8,7 +8,7 @@ import dns.resolver
 from scapy.all import *
 
 def clear_terminal():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system('clear')
 
 def display_banner():
     banner = """
